@@ -16,6 +16,13 @@ exports.seed = function(knex, Promise) {
             message: 'I\'m Batman',
             created_at: '2016-06-26 14:26:16 UTC',
             updated_at: '2016-06-26 14:26:16 UTC'
+          },
+          {
+            id: 3,
+            name: 'Joker',
+            message: 'I\'m Joker',
+            created_at: '2016-06-26 14:26:16 UTC',
+            updated_at: '2016-06-26 14:26:16 UTC'
           }
         ])
         .then(function() {
