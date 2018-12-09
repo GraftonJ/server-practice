@@ -7,7 +7,7 @@
     "test": "mocha --exit",
     "knex": "knex",
     "heroku-postbuild": "knex migrate:rollback; knex migrate:latest; knex seed:run;",
-    "nodemon": "nodemon ./bin/www" 
+    "nodemon": "nodemon ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
@@ -27,6 +27,6 @@
     "test": "^0.6.0"
   },
   "engines": {
-    "node": "v10.8.0"
+    "node": "v11.2.0"
   }
 }
