@@ -23,6 +23,34 @@ exports.seed = function(knex, Promise) {
             message: 'I\'m Joker',
             created_at: '2016-06-26 14:26:16 UTC',
             updated_at: '2016-06-26 14:26:16 UTC'
+          },
+          {
+            id: 3,
+            name: 'Bane',
+            message: 'I\'m Bane',
+            created_at: '2016-06-26 14:26:16 UTC',
+            updated_at: '2016-06-26 14:26:16 UTC'
+          },
+          {
+            id: 3,
+            name: 'Riddler',
+            message: 'I\'m Riddler',
+            created_at: '2016-06-26 14:26:16 UTC',
+            updated_at: '2016-06-26 14:26:16 UTC'
+          },
+          {
+            id: 3,
+            name: 'Two-Face',
+            message: 'I\'m Two-Face',
+            created_at: '2016-06-26 14:26:16 UTC',
+            updated_at: '2016-06-26 14:26:16 UTC'
+          },
+          {
+            id: 3,
+            name: 'Penguin',
+            message: 'I\'m Penguin',
+            created_at: '2016-06-26 14:26:16 UTC',
+            updated_at: '2016-06-26 14:26:16 UTC'
           }
         ])
         .then(function() {
